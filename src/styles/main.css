@@ -241,7 +241,7 @@ header {
   font-size: 36px;
 }
 
-.container-about span {
+.container-about .main span {
   color: var(--primary-color);
 }
 
