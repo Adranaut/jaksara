@@ -356,7 +356,7 @@ header {
 .text-card p {
   font-size: 18px;
   line-height: 1.5;
-  color: var(--desc-text);;
+  color: var(--color-text);
 }
 
 .text-card h3 {
