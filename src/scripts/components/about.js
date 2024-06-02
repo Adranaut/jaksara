@@ -16,7 +16,7 @@ class About extends HTMLElement {
                         <img src="about/kosong.png" alt="about">
                     </div>
                     <div class="text-content">
-                        <h2>Rasakan pengalaman belajar yang luar biasa</h2>
+                        <h2>Rasakan <span>pengalaman</span> belajar yang luar biasa</h2>
                         <p>Dengan jaksara anda bisa merasakan proses pembelajaran yang belum pernah anda rasakan sebelumnya, ini tentunya sudah bisa anda nikmati sekarang</p>
 
                         <div class= "btn">
@@ -27,7 +27,7 @@ class About extends HTMLElement {
 
                 <div class="main-content content-two">
                     <div class="text-content">
-                        <h2>Materi pembelajaran yang sudah Terstruktur</h2>
+                        <h2>Materi pembelajaran yang sudah <span>terstruktur</span></h2>
                         <p>Materi yang kami berikan bisa anda pilih sesuai dengan
                         pemahaman anda dan level anda, anda bisa memilih
                         materi dari termudah sampai tersulit</p>

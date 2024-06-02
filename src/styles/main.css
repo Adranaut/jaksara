@@ -241,6 +241,10 @@ header {
   font-size: 36px;
 }
 
+.container-about span {
+  color: var(--primary-color);
+}
+
 .container-about p {
   font-size: 18px;
 }
