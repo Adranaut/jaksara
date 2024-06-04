@@ -19,6 +19,25 @@ const Home = {
     async afterRender() {
         showLoadingSpinner();
 
+        const navbar = document.querySelector("navbar-content");
+        navbar.style.display = "block";
+
+
+        let lastScrollY = window.scrollY;
+        window.addEventListener("scroll", () => {
+            if (lastScrollY < window.scrollY) {
+                navbar.classList.add("navbar-hidden")
+            } else {
+                navbar.classList.remove("navbar-hidden")
+            }
+
+            lastScrollY = window.scrollY;
+
+            if (window.scrollY <= 0) {
+                navbar.classList.remove('navbar-hidden')
+            }
+        });
+
         // faq 
         const faqElements = document.querySelectorAll('.content-item');
 

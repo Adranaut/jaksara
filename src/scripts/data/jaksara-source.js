@@ -1,17 +1,68 @@
 import API_ENDPOINT from "../globals/api-endpoint";
-
 class JaksaraSource {
-  static async aksara() {
-    const response = await fetch(API_ENDPOINT.AKSARA);
-    const responseJson = await response.json();
-    return responseJson.aksara;
-  }
+    static async aksara() {
+        try {
+            const response = await fetch(API_ENDPOINT.AKSARA);
 
-  static async quiz() {
-    const response = await fetch(API_ENDPOINT.QUIZ);
-    const responseJson = await response.json();
-    return responseJson.quizs;
-  }
+            // Log status dan headers dari respons
+            console.log('API Response Status:', response.status);
+            console.log('API Response Headers:', response.headers);
+
+            // Cek jika responsnya ok
+            if (!response.ok) {
+                console.error('API response not ok');
+                return null;
+            }
+
+            const responseJson = await response.json();
+
+            // Log respons JSON lengkap
+            console.log('API Response JSON:', responseJson);
+
+            // Mengakses data.aksara dari respons JSON
+            if (responseJson.status === 'success' && responseJson.data && Array.isArray(responseJson.data.aksara)) {
+                return responseJson.data.aksara;
+            } else {
+                console.error('API response does not contain aksara array.');
+                return null;
+            }
+        } catch (error) {
+            console.error('Failed to fetch data from API:', error);
+            return null;
+        }
+    }
+
+    static async quiz() {
+        try {
+            const response = await fetch(API_ENDPOINT.QUIZ);
+
+            // Log status dan headers dari respons
+            console.log('API Response Status:', response.status);
+            console.log('API Response Headers:', response.headers);
+
+            // Cek jika responsnya ok
+            if (!response.ok) {
+                console.error('API response not ok');
+                return null;
+            }
+
+            const responseJson = await response.json();
+
+            // Log respons JSON lengkap
+            console.log('API Response JSON:', responseJson);
+
+            // Mengakses data.quizs dari respons JSON
+            if (responseJson.status === 'success' && responseJson.data && Array.isArray(responseJson.data.quizs)) {
+                return responseJson.data.quizs;
+            } else {
+                console.error('API response does not contain quizs array.');
+                return null;
+            }
+        } catch (error) {
+            console.error('Failed to fetch data from API:', error);
+            return null;
+        }
+    }
 }
 
 export default JaksaraSource;

@@ -5,7 +5,7 @@ class Testimonial extends HTMLElement {
 
     render() {
         this.innerHTML = `
-            <div class="container-testimonial">
+            <div class="container-testimonial" id="testimonial-section">
                 <div class= "content">
                     <div class="text-head">
                         <h1>Kami sudah <span>dipercaya</span> dan <span>dicintai</span> oleh Banyak Orang.</h1>

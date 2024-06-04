@@ -1,23 +1,31 @@
-import JaksaraSourceSource from "../../data/jaksara-source";
+import JaksaraSource from "../../data/jaksara-source";
 import {
-  showLoadingSpinner,
-  hideLoadingSpinner,
+    showLoadingSpinner,
+    hideLoadingSpinner,
+    CreateAksaraPageTemplate,
 } from "../templates/template-creator";
 
 const Aksara = {
-  async render() {
-    return `
-        <p>Aksara Page</p>
-    `;
-  },
+    async render() {
+        return `
+        <list-aksara></list-aksara>
+     `;
+    },
 
-  async afterRender() {
-    showLoadingSpinner();
+    async afterRender() {
+        showLoadingSpinner();
 
-    // Code Here
+        const navbar = document.querySelector("navbar-content");
+        navbar.style.display = "none";
 
-    hideLoadingSpinner();
-  },
+        const aksara = await JaksaraSource.aksara(); // Perhatikan await di sini untuk menunggu hasil dari promise JaksaraSource.aksara()
+        const aksaraContainer = document.querySelector("#card-aksara");
+
+        aksaraContainer.innerHTML = aksara.map(aksara => CreateAksaraPageTemplate(aksara)).join('');
+
+        hideLoadingSpinner();
+    },
+
 };
 
 export default Aksara;

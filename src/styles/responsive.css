@@ -1,4 +1,4 @@
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1800px) {
   .header-container {
       padding: 0 4%;
   }
@@ -18,7 +18,26 @@
   .footer-container {
     padding: 0 4%;
   }
+  .aksara-container {
+    padding: 0 4%;
+  }
+
+  .hero-container img {
+    width: 60%;
+    height: 60%;
+  }
+
+  .qna-section svg {
+    width: 32px;
+  }
+
+  navbar-content {
+    transition: transform 0.4s;
+  }
   
+  .navbar-hidden {
+    transform: translateY(-74px);
+  }
 }
 
 @media screen and (max-width: 977px) {
@@ -55,6 +74,26 @@
 
   .footer-container {
     padding: 0 4%;
+  }
+  .aksara-container {
+    padding: 0 4%;
+  }
+
+  .hero-container img {
+    width: 60%;
+    height: 60%;
+  }
+
+  .qna-section svg {
+    width: 32px;
+  }
+
+  navbar-content {
+    transition: transform 0.4s;
+  }
+  
+  .navbar-hidden {
+    transform: translateY(-74px);
   }
 }
 
@@ -166,6 +205,23 @@
   .card-container {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .hero-container img {
+    width: 60%;
+    height: 60%;
+  }
+
+  .qna-section svg {
+    width: 32px;
+  }
+
+  navbar-content {
+    transition: none;
+  }
+  
+  .navbar-hidden {
+    transform: none;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -233,7 +289,7 @@
   }
 
   .hero-container p {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     padding-top: 24px;
     line-height: 30px;
@@ -262,6 +318,15 @@
 
   .footer-container {
     flex-direction: column;
+  }
+
+  .hero-container img {
+    width: 80%;
+    height: 80%;
+  }
+
+  .qna-section svg {
+    width: 32px;
   }
 }
 
@@ -333,15 +398,15 @@
   }
 
   .hero-container p {
-    font-size: 19px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 500;
     padding-top: 24px;
     line-height: 30px;
     color: var(--description);
   }
 
   .hero-container h1 {
-    font-size: 34px;
+    font-size: 38px;
     font-weight: 900;
     color: var(--font-color);
   }
@@ -362,5 +427,22 @@
 
   .card-testi-container {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .hero-container img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .container-about .main-content {
+    text-align: center;
+  }
+
+  .container-about .img-content {
+    margin-top: 32px;
+  }
+
+  .qna-section svg {
+    width: 32px;
   }
 }

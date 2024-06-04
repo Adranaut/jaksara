@@ -13,6 +13,10 @@
   font-family: var(--font-family);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* navbar */
 #drawer > ul > li > a:hover {
   color: var(--color-text);
@@ -65,6 +69,14 @@ header {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+navbar-content {
+  transition: transform 0.4s;
+}
+
+.navbar-hidden {
+  transform: translateY(-74px);
 }
 
 #drawer > ul > li {
@@ -120,6 +132,16 @@ hero-content {
   text-align: center;
 }
 
+.hero-container span {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  border-radius: 18px;
+}
+
+.hero-container .img-content {
+  margin-top: 80px;
+}
+
 .hero-container h1 {
   font-size: 64px;
   font-weight: 900;
@@ -150,6 +172,11 @@ hero-content {
   font-weight: 600;
   background-color: var( --primary-color);
   border-radius: 16px;
+}
+
+.hero-container img {
+  width: 60%;
+  height: 60%;
 }
 
 .btn svg {
@@ -209,6 +236,10 @@ hero-content {
 .container-about h2 {
   font-size: 36px;
   font-weight: 900;
+}
+
+.qna-section svg {
+  width: 32px;
 }
 
 .container-about p {
@@ -519,6 +550,98 @@ hero-content {
   border-radius: 14px;
 }
 
+/* aksara */
+#card-aksara {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+  margin-top: 54px;
+}
+
+.aksara-item {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 24px;
+  border-radius: 14px;
+}
+
+.aksara-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.aksara-body {
+  margin-top: 4px;
+}
+
+/* select page */
+.select-container {
+  margin: 100px 0;
+  padding: 0 4%;
+}
+
+.select-container .text-head {
+  max-width: 36rem;
+  text-align: center;
+}
+
+.select-container .content {
+  display: flex;
+  justify-content: center;
+}
+
+.select-container h1 {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.select-container p {
+  padding: 16px 0;
+  line-height: 1.5;
+  font-size: 18px;
+  color: var(--desc-text);
+}
+
+.btn-select-container {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn-select-container a {
+  text-decoration: none;
+  color: #000;
+  margin-top: 48px;
+}
+
+.btn-select-container .btn-belajar:hover {
+  background-color: #F4F4F4;
+}
+
+.btn-belajar {
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 20px;
+  padding: 24px;
+}
+
+.btn-belajar h3 {
+  margin-top: 14px;
+  font-size: 22px;
+}
+
+.btn-belajar  p {
+  padding-top: 8px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/* aksara page */
+.aksara-container {
+  max-width: 80rem;
+  width: 100%;
+  margin: 32px auto 0 auto;
+}
 
 /*Spinner*/
 .loading-spinner {

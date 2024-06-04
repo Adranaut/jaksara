@@ -15,21 +15,21 @@ class Navbar extends HTMLElement {
                 <nav id="drawer">
                     <ul>
                         <li>
-                            <a href="#">Tentang</a>
+                            <a href="#about-section">Tentang</a>
                         </li>
                         <li>
-                            <a href="#">Fitur</a>
+                            <a href="#fitur-section">Fitur</a>
                         </li>
                         <li>
-                            <a href="#">Testimonial</a>
+                            <a href="#testimonial-section">Testimonial</a>
                         </li>
                         <li>
-                            <a href="#">Pertanyaan</a>
+                            <a href="#question">Pertanyaan</a>
                         </li>
                     </ul>
                 </nav>
                 <div class= "btn">
-                    <a href="#/question1">Mulai Sekarang</a>
+                    <a href="#/select">Mulai Sekarang</a>
                 </div>
             </div>
         `;

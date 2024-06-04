@@ -1,14 +1,20 @@
+import {
+    showLoadingSpinner,
+    hideLoadingSpinner,
+} from "../templates/template-creator"
+
 const Select = {
     async render() {
         return `
-        <h1>Select Page</h1>
+        <select-content></select-content>
       `;
     },
 
     async afterRender() {
         showLoadingSpinner();
 
-        // Code Here
+        const navbar = document.querySelector("navbar-content");
+        navbar.style.display = "none";
 
         hideLoadingSpinner();
     },

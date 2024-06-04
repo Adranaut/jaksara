@@ -5,7 +5,7 @@ class QNA extends HTMLElement {
 
     render() {
         this.innerHTML = `
-        <div class="qna-section">
+        <div class="qna-section" id= "question">
             <div class="text-head">
                 <h2>Pertanyaan? Jawaban.</h2>
             </div>
@@ -13,7 +13,7 @@ class QNA extends HTMLElement {
                 <article class="content-item" tabindex="0">
                     <div class="question ">
                         <h3>Berapa waktu yang dibutuhkan untuk belajar bahasa jawa?</h3>
-                        <svg xmlns="http://www.w3.org/2000/svg " id="arrow " x="0 " y="0 " version="1.1 " viewBox="0 0 29 29 " xml:space="preserve " width="24px " height="24px ">
+                        <svg xmlns="http://www.w3.org/2000/svg " id="arrow " x="0 " y="0 " version="1.1 " viewBox="0 0 29 29 " xml:space="preserve ">
                         <path fill="none " stroke="#000 " stroke-linecap="round " stroke-linejoin="round " stroke-miterlimit="10 " stroke-width="2 " d="m20.5 11.5-6 6-6-6 "></path>
                         </svg>
                     </div>
@@ -26,7 +26,7 @@ class QNA extends HTMLElement {
                 <article class="content-item" tabindex="0">
                     <div class="question">
                         <h3>Apakah saya bisa belajar bahasa Jawa meskipun saya pemula</h3>
-                        <svg xmlns="http://www.w3.org/2000/svg " id="arrow " x="0 " y="0 " version="1.1 " viewBox="0 0 29 29" xml:space="preserve " width="24px " height="24px ">
+                        <svg xmlns="http://www.w3.org/2000/svg " id="arrow " x="0 " y="0 " version="1.1 " viewBox="0 0 29 29" xml:space="preserve ">
                         <path fill="none" stroke="#000 " stroke-linecap="round " stroke-linejoin="round " stroke-miterlimit="10 " stroke-width="2 " d="m20.5 11.5-6 6-6-6 "></path>
                         </svg>
                     </div>
@@ -39,7 +39,7 @@ class QNA extends HTMLElement {
                 <article class="content-item" tabindex="0">
                     <div class="question">
                         <h3>Bagaimana cara menghubungi dukungan pelanggan jika saya mengalami masalah</h3>
-                        <svg xmlns="http://www.w3.org/2000/svg " id="arrow " x="0 " y="0 " version="1.1 " viewBox="0 0 29 29 " xml:space="preserve " width="24px " height="24px ">
+                        <svg xmlns="http://www.w3.org/2000/svg " id="arrow " x="0 " y="0 " version="1.1 " viewBox="0 0 29 29 " xml:space="preserve ">
                         <path fill="none " stroke="#000 " stroke-linecap="round " stroke-linejoin="round " stroke-miterlimit="10 " stroke-width="2 " d="m20.5 11.5-6 6-6-6 "></path>
                         </svg>
                     </div>
@@ -52,7 +52,7 @@ class QNA extends HTMLElement {
                 <article class="content-item" tabindex="0">
                     <div class="question">
                         <h3> Apakah saya bisa mengatur jadwal belajar saya sendiri?</h3>
-                        <svg xmlns="http://www.w3.org/2000/svg " id="arrow " x="0 " y="0 " version="1.1 " viewBox="0 0 29 29 " xml:space="preserve " width="24px " height="24px ">
+                        <svg xmlns="http://www.w3.org/2000/svg " id="arrow " x="0 " y="0 " version="1.1 " viewBox="0 0 29 29 " xml:space="preserve">
                         <path fill="none " stroke="#000 " stroke-linecap="round " stroke-linejoin="round " stroke-miterlimit="10 " stroke-width="2 " d="m20.5 11.5-6 6-6-6 "></path>
                         </svg>
                     </div>
@@ -66,7 +66,7 @@ class QNA extends HTMLElement {
                 <article class="content-item" tabindex="0">
                     <div class="question">
                         <h3>Apakah website ini gratis untuk digunakan?</h3>
-                        <svg xmlns="http://www.w3.org/2000/svg " id="arrow " x="0 " y="0 " version="1.1 " viewBox="0 0 29 29 " xml:space="preserve " width="24px " height="24px ">
+                        <svg xmlns="http://www.w3.org/2000/svg" id="arrow " x="0 " y="0 " version="1.1 " viewBox="0 0 29 29 " xml:space="preserve">
                         <path fill="none " stroke="#000 " stroke-linecap="round " stroke-linejoin="round " stroke-miterlimit="10 " stroke-width="2 " d="m20.5 11.5-6 6-6-6 "></path>
                         </svg>
                     </div>
@@ -81,7 +81,7 @@ class QNA extends HTMLElement {
                 <article class="content-item" tabindex="0">
                     <div class="question">
                         <h3>Apakah ada sertifikat yang diberikan setelah menyelesaikan kursus ini?</h3>
-                        <svg xmlns="http://www.w3.org/2000/svg " id="arrow " x="0 " y="0 " version="1.1 " viewBox="0 0 29 29 " xml:space="preserve " width="24px " height="24px ">
+                        <svg xmlns="http://www.w3.org/2000/svg " id="arrow " x="0 " y="0 " version="1.1 " viewBox="0 0 29 29 " xml:space="preserve">
                         <path fill="none " stroke="#000 " stroke-linecap="round " stroke-linejoin="round " stroke-miterlimit="10 " stroke-width="2 " d="m20.5 11.5-6 6-6-6 "></path>
                         </svg>
                     </div>
@@ -95,7 +95,7 @@ class QNA extends HTMLElement {
                 <article class="content-item" tabindex="0">
                     <div class="question">
                         <h3>Bagaimana cara meminta bantuan saat terjadi kendala?</h3>
-                        <svg xmlns="http://www.w3.org/2000/svg " id="arrow " x="0 " y="0 " version="1.1 " viewBox="0 0 29 29 " xml:space="preserve " width="24px " height="24px ">
+                        <svg xmlns="http://www.w3.org/2000/svg " id="arrow " x="0 " y="0 " version="1.1 " viewBox="0 0 29 29 " xml:space="preserve">
                         <path fill="none " stroke="#000 " stroke-linecap="round " stroke-linejoin="round " stroke-miterlimit="10 " stroke-width="2 " d="m20.5 11.5-6 6-6-6 "></path>
                         </svg>
                     </div>

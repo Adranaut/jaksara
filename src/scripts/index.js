@@ -13,6 +13,8 @@ import "./components/testimonial";
 import "./components/qna";
 import "./components/getstarted";
 import "./components/footer";
+import "./components/selectmenu";
+import "./components/list-aksara";
 
 const app = new App({
     button: document.querySelector("#hamburger"),

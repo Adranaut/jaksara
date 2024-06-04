@@ -5,7 +5,7 @@ class Fitur extends HTMLElement {
 
     render() {
         this.innerHTML = `
-            <div class="container-fitur">
+            <div class="container-fitur" id= "fitur-section">
                 <div class= "content">
                     <div class="text-head">
                         <h1>Cukup untuk <span>menyelesaikan</span> permasalahan belajarmu.</h1>
