@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #FFD29D;
-  --secondary-color: #FEFBF5;
+  --primary-color: #F5CF23;
+  --secondary-color: #FFF8D7;
   --color-text: #1E1E1E;
   --desc-text: #737283;
   --font-family: "Plus Jakarta Sans", sans-serif;
@@ -17,7 +17,8 @@ html {
   scroll-behavior: smooth;
 }
 
-/* navbar */
+
+
 #drawer > ul > li > a:hover {
   color: var(--color-text);
 }
@@ -39,7 +40,7 @@ html {
   margin: 0 4px;
   padding: 5px 14px;
   border-radius: 8px;
-  color: #797979;
+  color: #737283;
   transition: all 0.3s ease;
 }
 
@@ -109,7 +110,7 @@ navbar-content {
   align-content: center;
   text-decoration: none;
   background-color: var(--primary-color);
-  color: white;
+  color: var(--color-text);
   padding: 44px;
   z-index: 100;
 }
@@ -124,7 +125,7 @@ hero-content {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 160px;
+  margin-top: 180px;
 }
 
 .hero-container {
@@ -154,7 +155,7 @@ hero-content {
 
 .hero-container p {
   font-size: 19px;
-  font-weight: 400;
+  font-weight: 400 !important;
   padding-top: 24px;
   line-height: 30px;
   color: var(--desc-text);
@@ -208,7 +209,7 @@ hero-content {
   padding: 20px 40px;
   text-decoration: none;
   color: var(--color-text);
-  font-size: 19px;
+  font-size: 18px;
   font-weight: 600;
   background-color: var( --primary-color);
   border-radius: 16px;
@@ -379,7 +380,7 @@ hero-content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin-top: 54px;
-  gap: 20px;
+  gap: 24px;
 }
 
 .card-testimonial {
@@ -394,14 +395,18 @@ hero-content {
   color: var(--color-text);
 }
 
-.text-card h3 {
-  font-size: 18px;
+.text-profile p {
+  font-size: 14px;
+  padding-top: 2px;
+  color: var(--desc-text);
 }
 
 .text-profile p {
-  font-size: 16px;
-  padding-top: 2px;
-  color: var(--desc-text);
+  font-size: 14px;
+}
+
+.card-testimonial h2 {
+  font-size: 16px !important;
 }
 
 .card-testimonial .profile {
@@ -482,23 +487,23 @@ hero-content {
 .footer-container {
   max-width: 80rem;
   width: 100%;
-	margin: 140px auto 100px auto;
+	margin: 140px auto 0 auto;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 20px;
-  padding: 54px 0;
   z-index: 0;
+  padding:  40px 4% 100px 4% !important;
 }
 
 .footer-container ul li {
   list-style: none;
-  padding-bottom: 12px;
+  padding-bottom: 16px;
 }
 
-.footer-container h5 {
+.footer-container h3 {
   font-size: 18px;
-  padding-bottom: 14px;
+  padding-bottom: 18px;
 }
 
 .footer-container ul li a {
@@ -595,7 +600,7 @@ hero-content {
 }
 
 .select-container p {
-  padding: 16px 0;
+  padding-top: 18px;
   line-height: 1.5;
   font-size: 18px;
   color: var(--desc-text);

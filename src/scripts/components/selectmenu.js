@@ -9,7 +9,7 @@ class SelectMenu extends HTMLElement {
                 <div class= "content">
                     <div class="text-head">
                         <h1>Silahkan pilih kamu mau belajar atau bermain kuis?</h1>
-                        <p>Pilihlah sesuai dengan apa yang kamu inginkan belajar atau berlatih dengan kuis</p>
+                        <p>Pilihlah sesuai dengan apa yang butuhkankan danpahami dan manfaatkan sebaik mungkin</p>
                     </div>
                 </div>
                 <div class="btn-select-container">
@@ -17,7 +17,7 @@ class SelectMenu extends HTMLElement {
                         <div class="btn-belajar">
                             <img src="/select/belajar.svg" alt="img">
                             <h3>Belajar Aksara</h3>
-                            <p>Pahami dan pelajari dengan baik <br> agar belajar optimal</p>
+                            <p>Pahami dan pelajari dengan baik <br> setiap materinya</p>
                         </div>
                     </a>
                     <a href="#/quiz">

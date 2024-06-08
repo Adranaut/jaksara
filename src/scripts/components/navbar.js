@@ -8,7 +8,7 @@ class Navbar extends HTMLElement {
             <div class="header-container">
                 <div class="logo">
                     <a href="#">
-                        <h2>Jaksara</h2>
+                        <img src="/logo/brand.svg" alt= "img-logo">
                     </a>
                 </div>
                 <button id="hamburger" aria-label="Navigasi menu"></button>

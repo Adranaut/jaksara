@@ -15,7 +15,7 @@ class Footer extends HTMLElement {
                     <p>Hak cipta situs © 2024 - Jaksara</p>
                 </div>
                 <div class="item">
-                    <h5>Tentang</h5>
+                    <h3>Tentang</h3>
                     <ul>
                         <li>
                             <a href="#">Materi Aksara</a>
@@ -29,7 +29,7 @@ class Footer extends HTMLElement {
                     </ul>
                 </div>
                 <div class="item">
-                    <h5>Pusat Bantuan</h5>
+                    <h3>Pusat Bantuan</h3>
                     <ul>
                         <li>
                             <a href="#">Jaksara FAQs</a>
@@ -43,7 +43,7 @@ class Footer extends HTMLElement {
                     </ul>
                 </div>
                 <div class="item">
-                    <h5>Privacy dan Policy</h5>
+                    <h3>Privacy dan Policy</h3>
                     <ul>
                         <li>
                             <a href="#">Terms</a>
@@ -57,7 +57,7 @@ class Footer extends HTMLElement {
                     </ul>
                 </div>
                 <div class="item">
-                    <h5>Sosial Media</h5>
+                    <h3>Sosial Media</h3>
                     <ul>
                         <li>
                             <a href="#">Instagram</a>

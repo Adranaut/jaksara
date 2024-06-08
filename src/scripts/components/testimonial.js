@@ -19,7 +19,7 @@ class Testimonial extends HTMLElement {
                         <div class="profile">
                             <img src="testimonial/testi1.png" alt="testimonial" width="50 ">
                             <div class="text-profile">
-                                <h3>Benjamin Jackson</h3>
+                                <h2>Benjamin Jackson</h2>
                                 <p>Software Engineer</p>
                             </div>
                         </div>
@@ -31,50 +31,50 @@ class Testimonial extends HTMLElement {
                         <div class="profile">
                             <img src="testimonial/testi2.png" alt="testimonial" width="50 ">
                             <div class="text-profile">
-                                <h3>Muhamad Ibrahim</h3>
+                                <h2>Muhamad Ibrahim</h2>
                                 <p>Student</p>
                             </div>
                         </div>
                     </article>
                     <article class="card-testimonial" tabindex="0">
                         <div class="text-card">
-                            <p tabindex="0">"Saya suka kuis interaktifnya. Membuat belajar bahasa Jawa terasa seperti bermain game. Sangat membantu meningkatkan kemampuan saya."</p>
+                            <p tabindex="0">"Saya suka kuis interaktifnya. Membuat belajar terasa seperti bermain game. Sangat membantu meningkatkan kemampuan saya."</p>
                         </div>
                         <div class="profile">
                             <img src="testimonial/testi3.png" alt="testimonial" width="50 ">
                             <div class="text-profile">
-                                <h3>Lia Amelia</h3>
+                                <h2>Lia Amelia</h2>
                                 <p>Student</p>
                             </div>
                         </div>
                     </article>
                     <article class="card-testimonial" tabindex="0">
                         <div class="text-card">
-                            <p tabindex="0">"Fitur belajar dan kuisnya sangat bermanfaat.dan pembe;ajarannya yang tidak membosankan,sehingga sekarang saya merasa lebih percaya diri berbicara bahasa Jawa sekarang."</p>
+                            <p tabindex="0">"Fitur belajar dan kuisnya sangat bermanfaat, tidak membosankan sehingga sekarang saya merasa lebih percaya diri berbicara bahasa Jawa."</p>
                         </div>
                         <div class="profile">
                             <img src="testimonial/testi4.png" alt="testimonial" width="50 ">
                             <div class="text-profile">
-                                <h3>James Rodriguez</h3>
+                                <h2>James Rodriguez</h2>
                                 <p>Software Engineer</p>
                             </div>
                         </div>
                     </article>
                     <article class="card-testimonial" tabindex="0">
                         <div class="text-card">
-                            <p tabindex="0">"Web ini benar-benar membantu saya memahami aksara Jawa. Antarmuka yang ramah pengguna dan materi yang terorganisir dengan baik sangat membantu saya mempelajari bahasa jawa"</p>
+                            <p tabindex="0">"Web ini benar-benar membantu saya memahami aksara Jawa. Antarmuka yang ramah pengguna dan materi yang mudah dipahami"</p>
                         </div>
                         <div class="profile">
                             <img src="testimonial/testi5.png" alt="testimonial" width="50 ">
                             <div class="text-profile">
-                                <h3>Alysa</h3>
+                                <h2>Alysa</h2>
                                 <p>Software Engineer</p>
                             </div>
                         </div>
                     </article>
                     <article class="card-testimonial" tabindex="0">
                         <div class="text-card">
-                            <p tabindex="0">"Web yang sangat menarik dan edukatif. Kuis interaktif membuat belajar menyenangkan dan efektif, Kombinasi pelajaran dan kuis membuatnya berbeda dengan web yang ada di pasaran."</p>
+                            <p tabindex="0">"Web yang sangat menarik dan edukatif. Kuis interaktif membuat belajar menyenangkan dan Kombinasi pelajaran dan kuis efektif."</p>
                         </div>
                         <div class="profile">
                             <img src="testimonial/testi6.png" alt="testimonial" width="50 ">

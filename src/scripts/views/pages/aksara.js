@@ -9,6 +9,7 @@ const Aksara = {
     async render() {
         return `
         <list-aksara></list-aksara>
+        <footer-content></footer-content>
      `;
     },
 
