@@ -6,7 +6,7 @@
   "description": "Belajar aksara jawa online",
   "display": "standalone",
   "background_color": "#FFFFFF",
-  "theme_color": "#795458",
+  "theme_color": "#f5cf23",
   "icons": [
     {
       "src": "/icons/icon-72x72.png",
