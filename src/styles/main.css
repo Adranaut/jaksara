@@ -1,7 +1,7 @@
 :root {
-  --primary-color: #F5CF23;
-  --secondary-color: #FFF8D7;
-  --color-text: #1E1E1E;
+  --primary-color: #f5cf23;
+  --secondary-color: #fff8d7;
+  --color-text: #1e1e1e;
   --desc-text: #737283;
   --font-family: "Plus Jakarta Sans", sans-serif;
 }
@@ -17,8 +17,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
-
 #drawer > ul > li > a:hover {
   color: var(--color-text);
 }
@@ -29,9 +27,9 @@ html {
   padding: 14px;
   border-radius: 16px;
   backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px); 
-  border: 1px solid #ECECEC;
-}  
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid #ececec;
+}
 
 #drawer > ul > li > a {
   text-decoration: none;
@@ -171,7 +169,7 @@ hero-content {
   color: var(--color-text);
   font-size: 18px;
   font-weight: 600;
-  background-color: var( --primary-color);
+  background-color: var(--primary-color);
   border-radius: 16px;
 }
 
@@ -211,7 +209,7 @@ hero-content {
   color: var(--color-text);
   font-size: 18px;
   font-weight: 600;
-  background-color: var( --primary-color);
+  background-color: var(--primary-color);
   border-radius: 16px;
 }
 
@@ -384,7 +382,8 @@ hero-content {
 }
 
 .card-testimonial {
-  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
   padding: 24px;
   border-radius: 16px;
 }
@@ -419,7 +418,7 @@ hero-content {
 /* qna content*/
 .qna-section {
   margin-top: 140px;
-  padding: 0 4%
+  padding: 0 4%;
 }
 
 .qna-section h2 {
@@ -446,11 +445,11 @@ hero-content {
 }
 
 .content-item {
-  background-color: #FBFBFB;
+  background-color: #fbfbfb;
   padding: 18px 20px !important;
 }
 
-.content-item.active svg{
+.content-item.active svg {
   transform: rotate(180deg);
 }
 
@@ -487,13 +486,13 @@ hero-content {
 .footer-container {
   max-width: 80rem;
   width: 100%;
-	margin: 140px auto 0 auto;
+  margin: 140px auto 0 auto;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 20px;
   z-index: 0;
-  padding:  40px 4% 100px 4% !important;
+  padding: 40px 4% 100px 4% !important;
 }
 
 .footer-container ul li {
@@ -510,7 +509,7 @@ hero-content {
   text-decoration: none;
   color: #000;
   font-weight: 500;
-  opacity: 0.80;
+  opacity: 0.8;
   font-size: 16px;
 }
 
@@ -620,7 +619,7 @@ hero-content {
 }
 
 .btn-select-container .btn-belajar:hover {
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
 }
 
 .btn-belajar {
@@ -635,7 +634,7 @@ hero-content {
   font-size: 22px;
 }
 
-.btn-belajar  p {
+.btn-belajar p {
   padding-top: 8px;
   font-weight: 500;
   font-size: 16px;
@@ -646,6 +645,150 @@ hero-content {
   max-width: 80rem;
   width: 100%;
   margin: 32px auto 0 auto;
+}
+
+/*Quiz */
+.flex-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+
+.wrapper-container {
+  background-color: var(--light-color);
+  padding: 1.5rem 4rem 3rem 4rem;
+  margin-top: 3rem;
+  width: 600px;
+  height: auto;
+  position: relative;
+  box-shadow: 10px 10px 6px rgb(0 0 0 / 20%), 0 1px 3px rgb(0 0 0 / 20%);
+}
+
+.judul-quiz {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.score-quiz {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.2rem;
+  border: 5px solid var(--primary-color);
+  border-radius: 20px;
+  font-weight: bold;
+  width: 100px;
+  height: 50px;
+  margin: 0.5rem auto;
+  color: var(--primary-color);
+}
+
+.soal-quiz {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 1.3;
+  margin-bottom: 2rem;
+}
+
+.gambar-soal {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.gambar-soal img {
+  width: 280px;
+}
+
+.pilihan-jawaban {
+  list-style-type: none;
+  margin: 1rem 0;
+}
+
+.pilihan-jawaban li {
+  border-radius: 0.5rem;
+  font-weight: 600;
+  margin: 0.7rem 0;
+  padding: 0.4rem 1.2rem;
+  cursor: pointer;
+  border: 3px solid var(--primary-color);
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  box-shadow: 0 4px 0 0 var(--primary-color);
+  transition: var(--transition);
+  text-align: center;
+}
+
+.pilihan-jawaban li:hover {
+  background-color: #ff9a00;
+  color: var(--dark-color);
+  border-color: #ff9a00;
+  box-shadow: 0 4px 0 0 #bbb;
+}
+
+.pilihan-jawaban li:active {
+  transform: scale(0.97);
+}
+
+.pilihan-jawaban li.selected {
+  background-color: #ff9a00;
+  color: var(--dark-color);
+  border-color: #ff9a00;
+  box-shadow: 0 4px 0 0 #bbb;
+}
+
+.quiz-foot button {
+  border: none;
+  border-radius: 0.5rem;
+  outline: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  padding: 0.5rem 1rem;
+  margin: auto;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: block;
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  letter-spacing: 2px;
+  transition: var(--transition);
+  box-shadow: 0 4px 0 0 var(--primary-color);
+}
+
+.quiz-foot button:hover {
+  background-color: #ff9a00;
+  box-shadow: 0 4px 0 0 #ff9a00;
+  color: var(--dark-color);
+}
+
+.quiz-foot button:active {
+  transform: scale(0.95);
+}
+
+#check-answer {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#mulai-kembali {
+  margin-top: 10px;
+  display: none;
+}
+
+#result {
+  padding: 0.7rem 0;
+  text-align: center;
+  font-weight: 300;
+  font-size: 1.3rem;
 }
 
 /*Spinner*/
@@ -674,7 +817,7 @@ hero-content {
   height: 50px;
   border-radius: 50%;
   border: 5px solid #f3f3f3;
-  border-top: 5px solid #a63955;
+  border-top: 5px solid var(--primary-color);
   animation: spin 1s linear infinite;
 }
 
