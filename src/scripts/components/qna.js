@@ -5,9 +5,10 @@ class QNA extends HTMLElement {
 
     render() {
         this.innerHTML = `
-        <div class="qna-section" id= "question">
+        <section class="qna-section" id= "question">
             <div class="text-head">
-                <h2>Pertanyaan? Jawaban.</h2>
+                <div class="mini-text">LEBIH DARI 1  JUTA PELAJAR</div>
+                <h2>Pertanyaan? <span>Jawaban.</span></h2>
             </div>
             <div class="main-content">
                 <article class="content-item" tabindex="0">
@@ -107,7 +108,7 @@ class QNA extends HTMLElement {
                     </div>
                 </article>
             </div>
-        </div>
+        </section>
         `;
     }
 }

@@ -8,7 +8,9 @@ class Getstarted extends HTMLElement {
             <section class="getstarted-container">
                 <div class="text-content">
                     <h1>Belajar bahasa jawa dengan jaksara</h1>
-                    <button class="btn">Mulai Sekarang</button>
+                    <div class="btn">
+                        <a href="#/select">Mulai Sekarang</a>
+                    </div>
                 </div>
             </section>
         `;

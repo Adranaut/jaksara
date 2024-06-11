@@ -15,7 +15,7 @@ class Navbar extends HTMLElement {
                 <nav id="drawer">
                     <ul>
                         <li>
-                            <a href="#about-section">Tentang</a>
+                            <a href="#about-section" class="active">Tentang</a>
                         </li>
                         <li>
                             <a href="#fitur-section">Fitur</a>

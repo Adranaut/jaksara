@@ -70,10 +70,10 @@ module.exports = {
             }, ],
         }),
 
-        // new WorkboxWebpackPlugin.GenerateSW({
-        //   swDest: "./sw.bundle.js",
-        //   // Code Here
-        // }),
+        new WorkboxWebpackPlugin.GenerateSW({
+            swDest: "./sw.bundle.js",
+            // Code Here
+        }),
 
         new ImageminWebpackPlugin({
             plugins: [
